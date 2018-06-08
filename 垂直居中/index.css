@@ -1,0 +1,18 @@
+html,body{
+	color:#14191e;
+	background: #f2f2f2;
+}
+.content{
+	height:200px;
+	margin-top: 10px;
+	padding:15px;
+	border:1px solid #ddd;
+	border-radius: 5px;
+}
+h4{
+	text-align: center;
+}
+section{
+	padding: 20px 500px;
+	text-align: center;
+}
