@@ -124,24 +124,22 @@ section{
 
 /********************左右浮动--垂直居中***********************/
 .float{
-	width: 500px;
     height: 100px;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    background: #ffab10;
-}
-.float .content{
-	clear: both;
-    height: 72px;
-    display: inline-block;
-    width: 400px;
 }
 .float .left{
 	float: left;
 }
 .float .right{
 	float:right;
+}
+.float .wrap{
+	clear: both;
+    height: 72px;
+    display: inline-block;
+    width: 400px;
 }
 .float p{
 	height: 70px;
